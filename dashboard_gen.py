@@ -25,12 +25,12 @@ base_url = "https://datastudio.google.com/reporting/create?"
 report_part_url = base_url + "c.reportId=afc93bd5-2fd9-4682-a083-0494071cc858"
 report_base_url = report_part_url + "&r.reportName=BillingUsage"
 
-std_proj_url = "&ds.ds39.connector=bigQuery&ds.ds39.projectId={}"
-std_table_url = "&ds.ds39.type=TABLE&ds.ds39.datasetId={}&ds.ds39.tableId={}"
+std_proj_url = "&ds.ds0.connector=bigQuery&ds.ds0.projectId={}"
+std_table_url = "&ds.ds0.type=TABLE&ds.ds0.datasetId={}&ds.ds0.tableId={}"
 standard_view_url = std_proj_url + std_table_url
 
-dtl_proj_url = "&ds.ds93.connector=bigQuery&ds.ds93.projectId={}"
-dtl_table_url = "&ds.ds93.type=TABLE&ds.ds93.datasetId={}&ds.ds93.tableId={}"
+dtl_proj_url = "&ds.ds2.connector=bigQuery&ds.ds2.projectId={}"
+dtl_table_url = "&ds.ds2.type=TABLE&ds.ds2.datasetId={}&ds.ds2.tableId={}"
 detailed_view_url = dtl_proj_url + dtl_table_url
 
 output_url = ""
