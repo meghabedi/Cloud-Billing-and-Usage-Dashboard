@@ -36,7 +36,7 @@ For dashboard with Custom SQL:
 ```
 python dashboard.py
 ```
-Copy paste the billing_export.sql in the Data Source
+Copy paste the billing_export.sql in the Data Source. Enable the data range parameter just below the the custom query.
 
 
 ## Create billing dataset
