@@ -56,6 +56,8 @@ Explore the datastudio dashboard and explore your billing by clicking the link w
 
 ```
 
-python billboard.py -pr <project id> -se <standard billing ds> -de <detailed billing ds> -bb <billboard_ds> -clean yes
+python dashboard_gen.py -pr <project id> -se <standard billing ds> -de <detailed billing ds> -bb <billboard_ds> -clean yes
 
 ```
+
+dashboard_gen_public.py code will generate the dashboard with data source containing Public dataset for Cloud Billing and Usage information. 
