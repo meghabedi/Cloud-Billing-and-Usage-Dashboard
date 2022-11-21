@@ -23,7 +23,7 @@ from colorama import Style
 
 bq_client = bigquery.Client()
 base_url = "https://datastudio.google.com/reporting/create?"
-report_part_url = base_url + "c.reportId=51e49a70-dda0-4b8c-8e00-361ad58ae3be"
+report_part_url = base_url + "c.reportId=afc93bd5-2fd9-4682-a083-0494071cc858"
 report_base_url = report_part_url + "&r.reportName=BillingUsage"
 
 std_proj_url = "&ds.ds0.connector=bigQuery&ds.ds0.projectId={}"
@@ -200,7 +200,7 @@ WITH
   FROM
     `{}`
   WHERE
-    usage_start_time >= '2020-12-01'
+    usage_start_time >= '2022-12-01'
     AND usage_end_time <= CURRENT_TIMESTAMP()),
   -- Costs data
   costs AS (
